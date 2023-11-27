@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0 32px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    width: 100%;
+    padding: 32px 0;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+h1{
+    color:rgb(127, 42, 206);
+}
+
+li{
+    font-size: 15px;
+    transition: all 0.5s ease;
+}
+li:hover{
+    color:grey
+}
