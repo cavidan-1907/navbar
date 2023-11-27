@@ -23,4 +23,19 @@ ul.append(li1, li2, li3, li4);
 div2.append(h1, ul);
 div.append(div2);
 nav.append(div);
-document.body.append(nav);
+
+let section=document.createElement("section");
+
+let section1=document.createElement("div");
+section1.setAttribute("class", "section1");
+let div3=document.createElement("div");
+let div4=document.createElement("div");
+div3.setAttribute("class", "div3");
+div4.setAttribute("class", "div4");
+
+section1.append(div3,div4);
+
+div.append(section1);
+section.append(div)
+
+document.body.append(nav,section);

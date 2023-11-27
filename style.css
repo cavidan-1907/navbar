@@ -36,3 +36,28 @@ li{
 li:hover{
     color:grey
 }
+section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 100px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    gap: 100px;
+}
+.div4{
+width: 300px;
+height: 200px;
+background-color: aqua;
+}
+
+.div3{
+    width: 300px;
+    height: 200px;
+    background-color: aqua;
+    }
